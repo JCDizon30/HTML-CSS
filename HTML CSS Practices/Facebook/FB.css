@@ -1,0 +1,150 @@
+.first {
+    display: inline-block;
+  }
+
+  .title {
+    width: 210px;
+    margin-left: 270px;
+    margin-top: 40px;
+  }
+
+  .profile {
+    margin-left: 290px;
+  }
+
+  .recent {
+    font-size: 30px;
+    font-family: Arial;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+
+  .Add {
+    font-size: 17px;
+    color: rgb(87, 85, 85);
+    margin-top: 0;
+  }
+
+  .picture {
+    margin-left: 290px;
+    margin-top: 28px;
+    cursor: pointer;
+  }
+
+  .name {
+    margin-left: 287px;
+  }
+
+  .button {
+    color: rgb(77, 75, 75);
+    font-size: 19px;
+    background-color: aliceblue;
+    border-color: rgb(217, 227, 233);
+    border-style: solid;
+    border-radius: 7px;
+    cursor: pointer;
+    padding-left: 32px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: box-shadow 0.15s;
+  }
+
+  .button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .second {
+    display: inline-block;
+    background-color: rgb(235, 235, 235);
+    margin-left: 320px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+  }
+
+  .email {
+    font-size: 17px;
+    width: 340px;
+    height: 45px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgb(217, 227, 233);
+    padding-left: 16px;
+  }
+
+  .password {
+    font-size: 17px;
+    width: 340px;
+    height: 45px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: rgb(217, 227, 233);
+    padding-left: 16px;
+    margin-top: 13px;
+    margin-bottom: 16px;
+  }
+
+  .login {
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #166fe5;
+    border-radius: 6px;
+    border: none;
+    padding-right: 152px;
+    padding-left: 152px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    cursor: pointer;
+  }
+  .login:hover {
+    opacity: 0.7;
+  }
+
+  .FP {
+    color: #166fe5;
+    text-align: center;
+    cursor: pointer;
+  }
+  .FP:hover {
+    text-decoration: underline;
+  }
+
+  .Creat {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 6px;
+    margin-left: 85px;
+    margin-top: 20px;
+    background-color: #42b72a;
+    border: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+  }
+  .Creat:hover {
+    opacity: 0.7;
+  }
+
+  .celeb {
+    margin-left: 900px;
+    margin-top: 35px;
+    font-size: 18px;
+    color: rgb(63, 65, 65);
+  }
+
+  .point {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    cursor: pointer;
+  }
+  .point:hover {
+    text-decoration: underline;
+  }

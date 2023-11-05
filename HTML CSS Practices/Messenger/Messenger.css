@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  .bg {
+    background-color: rgb(236, 236, 236);
+    height: 100vh;
+  }
+
+  .img {
+    margin-top: 140px;
+    width: 63px;
+  }
+
+  .first {
+    margin-left: 835px;
+    margin-bottom: 35px;
+  }
+
+  .welcome {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 28px;
+    margin-left: 710px;
+    margin-bottom: 10px;
+  }
+
+  .simple {
+    font-size: 20px;
+    margin-left: 580px;
+    font-family: Arial;
+    color: gray;
+  }
+
+  .WF {
+    font-size: 17px;
+    font-family: Arial;
+    background-color: rgb(55, 137, 238);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+  }
+  .WF:hover {
+    background-color: rgb(40, 112, 201);
+  }
+
+  .WF:active {
+    background-color: rgb(36, 97, 172);
+  }
+
+  .second {
+    margin-left: 660px;
+    margin-top: 380px;
+  }
+
+  .PE {
+    font-size: 17px;
+    font-family: Arial;
+    background-color: rgb(231, 231, 231);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding-left: 94px;
+    padding-right: 94px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+  }
+
+  .PE:hover {
+    background-color: rgb(221, 219, 219);
+  }
+
+  .PE:active {
+    background-color: rgb(201, 201, 201);
+  }
+
+  .third {
+    margin-left: 660px;
+    margin-top: 18px;
+  }

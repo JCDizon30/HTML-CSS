@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        list-style-type: none;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+      }
+
+      .image {
+        position: relative;
+        height: 150px;
+        width: 150px;
+        border: none;
+        border-radius: 75px;
+        background-color: aliceblue;
+        margin-bottom: 10px;
+      }
+
+      container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 300px;
+        width: 100%;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        position: relative;
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0);
+        transition: ease-in-out 0.2s;
+        cursor: pointer;
+      }
+      container:hover {
+        box-shadow: 0 0 20px 3px rgba(0, 0, 0);
+      }
+
+      container::before {
+        content: "";
+        position: absolute;
+        height: 8rem;
+        width: 100%;
+        top: 0;
+        background-image: linear-gradient(0deg, #b0e5c4 1%, #45ad2b);
+        border-radius: 20px 20px 0 0;
+      }
+
+      .Name {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .Field {
+        font-size: 14px;
+        font-weight: 100;
+        color: rgb(143, 148, 148);
+        margin: 6px 0 15px 0;
+      }
+
+      .Desciption {
+        font-size: 14.5px;
+        text-align: center;
+      }
+
+      .Icons {
+        display: flex;
+        margin-top: 14px;
+      }
+
+      ion-icon {
+        margin: 0 10px 0 10px;
+        height: 25px;
+        width: 25px;
+        color: #45ad2b;
+        transition: ease-in-out 0.2s;
+      }
+
+      ion-icon:hover {
+        opacity: 0.6;
+      }
+
+      button {
+        font-size: 15px;
+        color: aliceblue;
+        font-weight: bolder;
+        border: none;
+        border-radius: 5px;
+        background-color: #45ad2b;
+        padding: 5px 30px 5px 30px;
+        margin-top: 10px;
+        transition: ease-in-out 0.2s;
+        cursor: pointer;
+      }
+
+      button:hover {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <container>
+      <img class="image" src="image/photo_2023-05-20_01-29-49.jpg" alt="" />
+      <p class="Name">John Carlo Dizon</p>
+      <p class="Field">Aspiring Web Develepor</p>
+      <div class="Desciption">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+          reprehenderit architecto similique blanditiis quisquam alias ab quis
+          pariatur asperiores enim architecto similique blanditiis quisquam amet
+          consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="Icons">
+        <a
+          href="https://l.instagram.com/?u=http%3A%2F%2FInstagram.com%2Fjc.mdizon&e=AT22317LMPLMX0pciOwBnv5-oKjn1adyeczDFS6B9iicRzPqeRX7jNYf--o-Yx5PwOZNbzNgotMTT06kVSvgzGDde2gmEVdApT8bfkWsHOJVFFGtLrheki4qsDxTRs1bylXaSv7XaTLtOBb316rymw"
+          target="_blank"
+          class="sm-icon"
+          ><ion-icon name="logo-instagram"> </ion-icon>
+        </a>
+        <a
+          href="https://l.instagram.com/?u=https%3A%2F%2Fwww.facebook.com%2FJohn.Dizon.30%3Fmibextid%3DZbWKwL&e=AT22317LMPLMX0pciOwBnv5-oKjn1adyeczDFS6B9iicRzPqeRX7jNYf--o-Yx5PwOZNbzNgotMTT06kVSvgzGDde2gmEVdApT8bfkWsHOJVFFGtLrheki4qsDxTRs1bylXaSv7XaTLtOBb316rymw"
+          target="_blank"
+          ><ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="https://github.com/JCDizon30" target="_blank"
+          ><ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="www.tiktok.com/@jayci.lifts" target="_blank"
+          ><ion-icon name="logo-tiktok"></ion-icon>
+        </a>
+      </div>
+      <a href="#" target="blank"><button>Cotact Now</button></a>
+    </container>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</html>

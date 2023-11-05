@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 100%;
+        overflow: hidden;
+
+        display: grid;
+        grid-template:
+          "header header header " auto
+          "nav article aside " 1fr
+          "nav footer footer " auto /
+          auto 1fr auto;
+      }
+
+      header {
+        grid-area: header;
+        background-color: blueviolet;
+        height: 15vh;
+      }
+
+      article {
+        grid-area: article;
+        height: 12cm;
+        width: 5cm;
+      }
+
+      aside {
+        grid-area: aside;
+        background-color: rgb(202, 202, 70);
+        width: 6cm;
+      }
+
+      nav {
+        grid-area: nav;
+        background-color: rgb(12, 170, 182);
+        width: 5cm;
+      }
+
+      footer {
+        grid-area: footer;
+        background-color: aquamarine;
+        height: 15vh;
+      }
+
+      p {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <header><p>Header</p></header>
+    <nav><p>Navbar</p></nav>
+    <article><p>Article</p></article>
+    <aside><p>Ads/Extra</p></aside>
+    <footer><p>Footer</p></footer>
+  </body>
+</html>

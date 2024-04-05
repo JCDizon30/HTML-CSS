@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Element</title>
+    <style>
+      .thumbnail {
+        width: 300px;
+        display: block;
+      }
+
+      .search-bar {
+      }
+
+      .video-author {
+        display: inline-block;
+      }
+
+      .video-stats {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 
+        3 type of Elements
+         1. Block Element = takes up the entire line. 
+            Example:
+             - Paragraphs = <p></p>
+             - Division = <div></div>
+
+         2. Inline-Block Element = only takes up as much space as needed.
+            Example:
+             = Images = <img src="" alt=""/>
+             - Inputs = <input type="text"/>
+
+        3. Inline Element = appear within a line of text
+           Example:
+            - <p><strong></strong></p>
+            - <p><i></i></p>
+            - <p><em></em></p>
+
+
+        Most interesting Elements is the Block and Inline-Block Element,
+        because they determine how these elements are displayed on the page,
+        whether beside each other or above and below.
+        In addition, we can use a CSS property called display to easily 
+        switch between block and inline block. We can control whether an element
+        appears on the same line or on a different line
+
+    -->
+
+    <img class="thumbnail" src="images/hq720.webp" alt="" />
+    <input class="search-bar" type="text" placeholder="Search" />
+
+    <p class="video-author">SuperSimpleDev</p>
+    <p class="video-stats">8.5M views &#183; 2 years ago</p>
+  </body>
+</html>
